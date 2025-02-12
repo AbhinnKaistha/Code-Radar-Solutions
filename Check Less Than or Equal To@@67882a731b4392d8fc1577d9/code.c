@@ -4,10 +4,10 @@ int main(){
     int n,m;
     scanf("%d %d",&n,&m){
         if(n<=m){
-            printf("True")
+            printf("True");
         }
         else if(n>m){
-            printf("False")
+            printf("False");
         }
 
     }
