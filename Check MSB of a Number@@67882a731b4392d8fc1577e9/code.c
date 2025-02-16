@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    long int a;
-    scanf("%ld",&a);
+    int a;
+    scanf("%d",&a);
     if(a & 0x80){
         printf("Set");
     }
