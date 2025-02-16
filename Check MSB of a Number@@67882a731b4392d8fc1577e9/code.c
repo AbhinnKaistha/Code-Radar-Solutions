@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    long long int a;
-    scanf("%lld",&a);
-    if(a & 0x80){
+    unsigned int a;
+    scanf("%ud",&a);
+    if(a & 0x80000000){
         printf("Set");
     }
     else {
