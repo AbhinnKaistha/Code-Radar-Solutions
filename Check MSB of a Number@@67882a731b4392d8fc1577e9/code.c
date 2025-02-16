@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    unsigned int a;
-    scanf("%ud",&a);
+    long int a;
+    scanf("%ld",&a);
     if(a & 0x80000000){
         printf("Set");
     }
