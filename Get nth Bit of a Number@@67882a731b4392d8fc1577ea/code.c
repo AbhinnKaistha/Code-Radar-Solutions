@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    int bitpos;
+    int bit;
     scanf("%d %d",&a,&b);
-    bitpos=(a>>b)&1;
-    printf("%d",bitpos);
+    bit=(a>>b)&1;
+    printf("%d",bit);
 }
