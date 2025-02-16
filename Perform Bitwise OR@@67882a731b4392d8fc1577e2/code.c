@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a,b,result;
-    scanf("%d %d",a,b);
+    unsigned int a,b;
+    int result;
+    scanf("%ud %ud",&a,&b);
     result = a|b;
     printf("%d",result);
 }
