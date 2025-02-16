@@ -6,4 +6,5 @@ int main(){
         count++;
         num >>= 1;
     }
+    printf("%d",count);
 }
